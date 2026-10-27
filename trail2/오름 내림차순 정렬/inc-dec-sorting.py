@@ -1,0 +1,6 @@
+n = int(input())
+nums = list(map(int, input().split()))
+a=sorted(nums)
+b=list(reversed(a))
+print(*a)
+print(*b)
